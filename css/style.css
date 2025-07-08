@@ -1,1 +1,151 @@
+.open-sans-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
 
+/* Shared Style */
+.text-primary {
+  color: #fd6e0a;
+}
+
+.secondary-bg {
+  background-color: #fff8f3;
+}
+
+.btn-primary {
+  font-size: 20px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  padding: 18px 35px;
+  font-weight: 700;
+  color: white;
+  background-color: #fd6e0a;
+}
+
+.section-title {
+  font-size: 35px;
+  font-weight: bold;
+  color: #181818;
+}
+
+.section-description {
+  font-size: 18px;
+  color: #757575;
+}
+
+.header {
+  background-repeat: no-repeat;
+  background-image: url("../images/developer.png"),
+    url("../images/header_bg.png");
+  background-position: top left, bottom right;
+}
+
+.text-center {
+  text-align: center;
+}
+
+/* Nav style */
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px 200px;
+}
+
+nav ul {
+  align-items: center;
+  display: flex;
+}
+
+.nav-title {
+  font-size: 45px;
+  font-weight: 800;
+}
+
+nav ul li {
+  list-style: none;
+  margin-right: 50px;
+}
+
+nav li a {
+  color: #474747;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+/* Banner Style */
+
+.banner {
+  display: flex;
+  margin: 0 35px 0 200px;
+  justify-content: space-between;
+}
+
+.banner-content {
+  max-width: 580px;
+}
+
+.banner-gretings {
+  font-weight: 600;
+  font-size: 45px;
+}
+
+.banner-title {
+  font-size: 85px;
+  font-weight: bold;
+}
+
+.banner-profile-pic {
+  width: 580px;
+}
+
+main {
+  margin: 0 auto;
+  max-width: 1140px;
+}
+
+main section {
+  margin-top: 120px;
+  margin-bottom: 120px;
+}
+
+/* About Styles */
+.about {
+  text-align: center;
+  padding: 130px 150px;
+  border-radius: 10px;
+}
+
+.about-items {
+  justify-content: space-around;
+  display: flex;
+}
+
+/* Skills Style */
+.skills-container {
+  display: flex;
+  gap: 24px;
+}
+
+.skill {
+  margin-top: 50px;
+  border-radius: 5px;
+  box-shadow: 0px 6px 50px 0 rgba(0, 0, 0, 0.06);
+  padding: 30px;
+}
+
+.skill-title {
+  color: #181818;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.skill-description {
+  color: #757575;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25px;
+}
