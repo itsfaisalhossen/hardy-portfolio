@@ -203,3 +203,38 @@ footer textarea {
   border: none;
   display: block;
 }
+
+/* Responsive Media query */
+.hide {
+  display: none;
+}
+
+@media screen and (max-width: 576px) {
+  .about {
+    padding: 20px;
+  }
+
+  .skills-container,
+  .resume-container,
+  .about-items,
+  footer {
+    flex-direction: column;
+  }
+
+  footer {
+    padding: 20px;
+  }
+
+  .footer-column {
+    width: 100%;
+  }
+
+  footer input[type="text"],
+  footer input[type="email"],
+  footer textarea {
+    width: calc(100% - 40px);
+  }
+}
+
+@media screen and (min-width: 576px) and (max-width: 992px) {
+}
