@@ -210,6 +210,22 @@ footer textarea {
 }
 
 @media screen and (max-width: 576px) {
+  .banner {
+    margin: 20px;
+  }
+
+  .banner-profile-pic {
+    width: 100%;
+  }
+
+  .header {
+    background-image: none;
+  }
+
+  .btn-primary {
+    margin-bottom: 20px;
+  }
+
   .about {
     padding: 20px;
   }
@@ -217,6 +233,9 @@ footer textarea {
   .skills-container,
   .resume-container,
   .about-items,
+  .banner,
+  nav,
+  ul,
   footer {
     flex-direction: column;
   }
