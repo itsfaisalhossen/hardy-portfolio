@@ -205,10 +205,6 @@ footer textarea {
 }
 
 /* Responsive Media query */
-.hide {
-  display: none;
-}
-
 @media screen and (max-width: 576px) {
   .banner {
     margin: 20px;
@@ -255,5 +251,26 @@ footer textarea {
   }
 }
 
+/* Tablet specific media query */
 @media screen and (min-width: 576px) and (max-width: 992px) {
+  .banner {
+    flex-direction: column;
+  }
+  .skills-container {
+    flex-wrap: wrap;
+  }
+
+  .banner-profile-pic {
+    width: 100%;
+  }
+
+  footer {
+    padding: 20px;
+  }
+
+  footer input[type="text"],
+  footer input[type="email"],
+  footer textarea {
+    width: calc(100% - 40px);
+  }
 }
